@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Blueprint: Zoom Slider</title>
+	<meta name="description" content="A simple content slider with depth-like zoom functionality" />
+	<meta name="keywords" content="blueprint, template, slider, zoom, javascript, depth, 3d, css" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- Feather Icons -->
+	<link rel="stylesheet" type="text/css" href="fonts/feather/style.css">
+	<!-- General demo styles & header -->
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<!-- Component styles -->
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+	<!-- Main container -->
+	<div class="container">
+		<!-- Blueprint header -->
+		<header class="bp-header cf">
+			<span>OUSTTRID <span class="bp-icon bp-icon-about" data-content="The Blueprints are a collection of basic and minimal website concepts, components, plugins and layouts with minimal style for easy adaption and usage, or simply for inspiration."></span></span>
+			<h1>Hello you</h1>
+
+			<!--<nav>
+
+				<a href="http://tympanus.net/codrops/?p=24330" class="bp-icon bp-icon-drop" data-info="back to the Codrops article"><span>back to the Codrops article</span></a>
+				<a href="http://tympanus.net/codrops/category/blueprints/" class="bp-icon bp-icon-archive" data-info="Blueprints archive"><span>Go to the archive</span></a>
+			</nav> -->
+		</header>
+		<!-- Grid -->
+		<section class="slider">
+			<div class="slide slide--current" data-content="content-1">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img src="images/OUSTRIDP.png" alt="iPhone app preview" />
+
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Please to meet You</span> I'm Oustrid</h2>
+			</div>
+			<div class="slide" data-content="content-2">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/BOBY.png" alt="iPad Mini" />
+						<div class="preview">
+							<img src="images/VOISIN.png" alt="iPad Mini app preview" />
+							<div class="zoomer__area zoomer__area--size-4"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>this is Boby</span> My neighbour</h2>
+			</div>
+			<div class="slide" data-content="content-3">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/houseboby.png" alt="MacBook" />
+						<div class="preview">
+
+							<div class="zoomer__area zoomer__area--size-3"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>He live in this house</span> this is "cathy the house"</h2>
+			</div>
+			<div class="slide" data-content="content-4">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img src="images/CANAP.png" alt="iMac app preview" />
+							<div class="zoomer__area zoomer__area--size-5"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>This is Cathy's sofa</span> you can call him Max</h2>
+			</div>
+			<div class="slide" data-content="content-5">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+
+						<div class="preview rounded">
+							<img src="images/CHAISE.png" alt="Apple Watch app preview" />
+							<div class="zoomer__area zoomer__area--size-1"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Billy the chair</span>Max's best friend</h2>
+			</div>
+			<nav class="slider__nav">
+				<button class="button button--nav-prev"><i class="icon icon--arrow-left"></i><span class="text-hidden">Previous product</span></button>
+				<button class="button button--zoom"><i class="icon icon--zoom"></i><span class="text-hidden">View details</span></button>
+				<button class="button button--nav-next"><i class="icon icon--arrow-right"></i><span class="text-hidden">Next product</span></button>
+			</nav>
+		</section>
+		<!-- /slider-->
+		<section class="content">
+			<div class="content__item" id="content-1">
+
+				<div class="content__item-inner">
+					<h2>Oustrid, my beautiful name</h2>
+					<h3>I know this is a little bit narcissistic</h3>
+					<p>Several versions of the myth have survived from ancient sources. The classic version is by Ovid, found in book 3 of his Metamorphoses (completed 8 AD); this is the story of Echo and Narcissus. One day Narcissus was walking in the woods when Echo, an Oread (mountain nymph) saw him, fell deeply in love, and followed him</p>
+
+				</div>
+			</div>
+			<div class="content__item" id="content-2">
+				<div class="content__item-inner">
+					<h2>Not the ipad mini</h2>
+					<h3>Stop to the Ipad mini</h3>
+					<p>this is to mini </p>
+				</div>
+			</div>
+			<div class="content__item" id="content-3">
+				<div class="content__item-inner">
+					<h2>The rocking chair</h2>
+					<h3>It's the future </h3>
+					<p>A rocking chair or rocker is a type of chair with two curved bands (also known as rockers) attached to the bottom of the legs, connecting the legs on each side to each other. The rockers contact the floor at only two points, giving the occupant the ability to rock back and forth by shifting their weight or pushing lightly with their feet.[1][2] Rocking chairs are most commonly made of wood. Some rocking chairs can fold.</p>
+				</div>
+			</div>
+			<div class="content__item" id="content-4">
+				<div class="content__item-inner">
+					<h2>Nope</h2>
+					<h3>Nope, nope, nope</h3>
+					<p>Maybe, nope</p>
+
+				</div>
+			</div>
+			<div class="content__item" id="content-5">
+				<div class="content__item-inner">
+					<h2>RED RED WINE</h2>
+					<h3>What ?</h3>
+					<p>Red, red wine, goes to my head,
+Makes me forget that I
+Still need you so
+Red, red wine, it's up to you
+All I can do, I've done
+But memories won't go
+No, memories won't go
+I'd have thought that with time
+Thoughts of you would leave my head
+I was wrong, now I find
+Just one thing makes me forget</p>
+				</div>
+			</div>
+			<button class="button button--close"><i class="icon icon--circle-cross"></i><span class="text-hidden">Close content</span></button>
+		</section>
+	</div>
+	<script src="js/classie.js"></script>
+	<script src="js/dynamics.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
